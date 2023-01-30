@@ -9,9 +9,10 @@ body{
 header{
     background-color: #1f2937;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 72px;
+    padding: 0 160px;
 }
 .logo{
     font-size: 24px;
@@ -24,11 +25,49 @@ ul{
     font-size: 18px;
     color: #e5e7eb;
     display: flex;
-    gap: 8px;
-    /* justify-content: space-between; */
+    gap: 24px;
     align-items: center;
 }
 a{
     text-decoration: none;
     
+}
+.hero-container{
+    background-color: #1f2937;
+    height: 500px;
+    padding: 0 160px;
+    display: flex;
+    color: #f9faf8;
+    gap: 40px;
+}
+.hero-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.hero-item *{
+    margin: 8px 0;
+}
+.hero-title{
+    font-size: 48px;
+    font-weight: 900;
+}
+.hero-text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+button{
+    padding: 12px 24px;
+    background-color: #3882f6;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    
+}
+.hero-img{
+    width: 500px;
+    height: 220px;
+    object-fit: cover;
 }

@@ -68,7 +68,7 @@ button{
 }
 .hero-img{
     width: 500px;
-    height: 220px;
+    height: 240px;
     object-fit: cover;
 }
 .information, .signup-container{

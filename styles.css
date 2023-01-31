@@ -53,7 +53,7 @@ a{
     font-size: 48px;
     font-weight: 900;
 }
-.hero-text{
+.hero-text, .action-card p{
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -71,7 +71,7 @@ button{
     height: 220px;
     object-fit: cover;
 }
-.information{
+.information, .signup-container{
     padding: 160px;
 }
 .information-title{
@@ -97,8 +97,8 @@ button{
 }
 .card-img{
     object-fit: cover;
-    width: 200px;
-    height: 200px;
+    width: 175px;
+    height: 175px;
     border: 5px solid #3882f6;
     border-radius: 25px;
 }
@@ -107,7 +107,7 @@ button{
     flex-direction: column;
     justify-content: space-between;
     background-color: #e5e7eb;
-    padding: 200px 160px;
+    padding: 160px 260px;
 }
 blockquote{
     color:#1f2937;
@@ -117,4 +117,30 @@ blockquote{
 }
 figcaption{
     align-self: flex-end;
+    font-size: 18px;
+    font-weight: bold;
+}
+.action-card{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius: 8px;
+    padding: 50px 80px;
+}
+.action-card > button{
+    flex: 0 0 160px;
+    border: 2px solid white;
+}
+.card-text h2{
+    color: #fff;
+    padding-bottom: 5px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+    background-color: #1f2937;
+    color: #e5e7eb;
 }

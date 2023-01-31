@@ -71,3 +71,50 @@ button{
     height: 220px;
     object-fit: cover;
 }
+.information{
+    padding: 160px;
+}
+.information-title{
+    text-align: center;
+    padding-bottom: 50px;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    color: #505a67;
+    font-size: 18px;
+}
+.card-img{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 25px;
+}
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #e5e7eb;
+    padding: 200px 160px;
+}
+blockquote{
+    color:#1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+figcaption{
+    align-self: flex-end;
+}
